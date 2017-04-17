@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-lls",
+  "version": "0.0.0",
+  "description": "A customized code style config for eslint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "find-rules": "eslint-find-rules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengjianhua/eslint-config-lls.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "chengjianhua (w.chengjianhua@gmail.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/chengjianhua/eslint-config-lls/issues"
+  },
+  "homepage": "https://github.com/chengjianhua/eslint-config-lls#readme",
+  "peerDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
